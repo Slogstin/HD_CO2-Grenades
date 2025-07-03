@@ -1,0 +1,3 @@
+weapons/grenade/co2/start Sounds/Grenades/Co2Start.ogg
+weapons/grenade/co2/hiss Sounds/Grenades/Co2Hiss.ogg
+weapons/grenade/co2/end Sounds/Grenades/Co2End.ogg
