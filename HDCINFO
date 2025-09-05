@@ -1,0 +1,6 @@
+addSpawnTableSingleEntry => { "tableName": "RocketBoxReplaces", "name": "HDCO2GrenadePickup", "weight": "#co2_rocketbox_spawn_weight", "persists": "#co2_persistency" }
+addSpawnTableSingleEntry => { "tableName": "BlurSphereReplaces", "name": "HDCO2GrenadePickup", "weight": "#co2_blur_spawn_weight", "persists": "#co2_persistency" }
+addSpawnTableSingleEntry => { "tableName": "HealthBonusReplaces", "name": "HDCO2GrenadeAmmo", "weight": "1", "chance": "#co2_healthbonus_spawn_chance", "persists": "#co2_persistency" }
+addSpawnTableSingleEntry => { "tableName": "ArmorBonusReplaces", "name": "HDCO2GrenadeAmmo", "weight": "1", "chance": "#co2_armorbonus_spawn_chance", "persists": "#co2_persistency" }
+
+newMerchantStoreItem => { "enabled": "#hdm_enable_co2nade", "type": "ammo", "category": "$MERCH_CAT_SLOGSTIN", "item": "HDCO2GrenadeAmmo", "icon": "CO22A0", "displayName": "$MERCH_TAG_CO2NADE", "basePrice": "#hdm_co2nade_price", "flavorText": "$MERCH_FLAVOR_CO2NADE" }

@@ -1,0 +1,26 @@
+[enu default]
+
+// Main Menu
+CO2NADE_MENU = "\c[Orange]Ⓒ\c- CO2 Grenades";
+MENU_ITEMSPAWNRATE = "Item Spawn Rate: ";
+MENU_MERCHPRICE = "Merchant Price: ";
+MENU_MERCHENABLED = "Merchant Sold: ";
+MENU_PERSISTENCY = "Persistent Spawns: ";
+
+// Grenade Strings
+CO2NADE_TAG = "CO2-Grenade"
+CO2NADE_HELPTEXT_1 = "  Wind up, release to throw\n(\cxSTOP READING AND DO THIS";
+CO2NADE_HELPTEXT_2 = "  Pull pin/wind up (release to throw)\n";
+CO2NADE_HELPTEXT_3 = "  Pull pin, again to drop spoon\n";
+CO2NADE_HELPTEXT_4 = "  Abort/replace pin\n";
+CO2NADE_HELPTEXT_5 = "  Start planting tripwire traps";
+
+// How are you even going to see this?
+OB_CO2NADE = "%o was somehow smoked out by %k. Good job.";
+OB_CO2NADE2 = "%o was fire.";
+PICKUP_CO2NADE = "Picked up a CO2-Grenade.";
+
+// Merchant
+MERCH_CAT_SLOGSTIN = "Slogstin";
+MERCH_TAG_CO2NADE = "CO2-Grenade";
+MERCH_FLAVOR_CO2NADE = "Throw at fire. Do not throw yourself at fire with it.";
