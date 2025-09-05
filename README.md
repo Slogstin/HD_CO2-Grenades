@@ -10,6 +10,8 @@ Matt for [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor).
 
 [Potetobloke](https://github.com/Potetobloke) for the [Fire Extinguisher & Gas Grenade](https://github.com/Potetobloke/PB_HDAddon_Bangers-And-Mash) code i used as a base.
 
+[Ted](https://github.com/tedthepraimortis) for localization and adding [HDCoreLib](https://github.com/HDest-Community/hdest-core-lib) support.
+
 ## Contents
 
 ### CO2 Grenade
