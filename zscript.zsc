@@ -1,0 +1,6 @@
+version "4.14"
+
+#include "zscript/CO2_Nade.zsc"
+
+const HDLD_CO2NADE="CO2";
+const ENC_CO2GRENADE=ENC_FRAG*1.2;

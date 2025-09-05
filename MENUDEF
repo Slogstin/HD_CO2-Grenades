@@ -1,0 +1,25 @@
+AddOptionMenu "OptionsMenu" {
+    Submenu "$CO2NADE_MENU", "CO2NADEMenu"
+}
+
+AddOptionMenu "HDAddonMenu" {
+    Submenu "$CO2NADE_MENU", "CO2NADEMenu"
+}
+
+OptionMenu "CO2NADEMenu"
+{
+    Title "$CO2NADE_MENU"
+    
+    StaticText ""
+    StaticText "$MERCH_TAG_CO2"
+    Slider "$MENU_ITEMSPAWNRATE", "co2_rocketbox_spawn_weight", 0.0, 100, .01, 2
+    Slider "$MENU_ITEMSPAWNRATE", "co2_blur_spawn_weight", 0.0, 100, .01, 2
+    Slider "$MENU_ITEMSPAWNRATE", "co2_healthbonus_spawn_chance", 0.0, 100, .01, 2
+    Slider "$MENU_ITEMSPAWNRATE", "co2_armorbonus_spawn_chance", 0.0, 100, .01, 2
+    Slider "$MENU_MERCHPRICE", "hdm_co2nade_price", 0.0, 10000, 10, 2
+    Option "$MENU_MERCHENABLED", "hdm_enable_co2nade", "OnOff"
+    StaticText ""
+
+    StaticText ""
+    Option "$MENU_PERSISTENCY", "co2_persistency", "OnOff"
+}

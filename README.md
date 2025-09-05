@@ -1,20 +1,19 @@
-# Description
-This Addon adds a CO2 Grenade to [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor), useful for extinguishing large fires or dealing with hordes of Lost Souls. 
+# CO2 Grenades
+
+This Addon adds a CO2 Grenade to [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor), useful for extinguishing large fires or dealing with hordes of Lost Souls.
 
 https://github.com/user-attachments/assets/148efdf0-9041-42bc-8ea4-b24b24c47fd1
 
+## Credits
 
-
-
-
-# Credits
 Matt for [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor).
 
 [Potetobloke](https://github.com/Potetobloke) for the [Fire Extinguisher & Gas Grenade](https://github.com/Potetobloke/PB_HDAddon_Bangers-And-Mash) code i used as a base.
 
+## Contents
 
-# Contents
-## CO2 Grenade:
+### CO2 Grenade
+
     * Can spawn alone on Health & Armour bonuses
     * Can spawn in a bundle of 4 on Blur Spheres and Rocket Boxes
     * Weighs 30 blocks (20% more than Frag Grenades)

@@ -1,0 +1,13 @@
+[enu default]
+
+// Main Menu
+CO2NADE_MENU = "\c[Orange]Ⓒ\c- CO2 Grenades";
+MENU_ITEMSPAWNRATE = "Item Spawn Rate: ";
+MENU_MERCHPRICE = "Merchant Price: ";
+MENU_MERCHENABLED = "Merchant Sold: ";
+MENU_PERSISTENCY = "Persistent Spawns: ";
+
+// Merchant
+MERCH_CAT_SLOGSTIN = "Slogstin";
+MERCH_TAG_CO2NADE = "CO-2 Grenade";
+MERCH_FLAVOR_CO2NADE = "Throw at fire. Do not throw yourself at fire with it.";

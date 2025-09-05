@@ -3,8 +3,6 @@
 //
 //	Experimental grenade for extinguishing big fires. -Slogstin
 // ------------------------------------------------------------
-const HDLD_CO2NADE="CO2";
-const ENC_CO2GRENADE=ENC_FRAG*1.2;
 
 class HDCO2Grenades:HDGrenadethrower{
 	default{
@@ -20,14 +18,12 @@ class HDCO2Grenades:HDGrenadethrower{
 	}
 
 	override string gethelptext(){
-		if(weaponstatus[0]&FRAGF_SPOONOFF)return
-		WEPHELP_FIRE.."  Wind up, release to throw\n(\cxSTOP READING AND DO THIS"..WEPHELP_RGCOL..")";
+		if(weaponstatus[0]&FRAGF_SPOONOFF)return WEPHELP_FIRE.."  Wind up, release to throw\n(\cxSTOP READING AND DO THIS"..WEPHELP_RGCOL..")";
 		return
 		WEPHELP_FIRE.."  Pull pin/wind up (release to throw)\n"
 		..WEPHELP_ALTFIRE.."  Pull pin, again to drop spoon\n"
 		..WEPHELP_RELOAD.."  Abort/replace pin\n"
-		..WEPHELP_ZOOM.."  Start planting tripwire traps"
-		;
+		..WEPHELP_ZOOM.."  Start planting tripwire traps";
 	}
 	
 	override void DoEffect(){

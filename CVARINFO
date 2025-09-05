@@ -1,0 +1,14 @@
+// Spawn Weights - [Ted]
+server float co2_rocketbox_spawn_weight = 1.25;
+server float co2_blur_spawn_weight = 1.25;
+
+// Spawn Chances
+server int co2_healthbonus_spawn_chance = 24;
+server int co2_armorbonus_spawn_chance = 24;
+
+// Persistency
+server bool co2_persistency = true;
+
+// Mercant CVARs
+server int hdm_co2nade_price = 35;
+server bool hdm_enable_co2nade = true;
