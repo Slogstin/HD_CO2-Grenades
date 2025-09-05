@@ -9,7 +9,7 @@ class HDCO2Grenades:HDGrenadethrower{
 		weapon.selectionorder 1020;
 		weapon.slotpriority 1;
 		weapon.slotnumber 0;
-		tag "CO2-Grenade";
+		tag "$CO2NADE_TAG";
 		hdgrenadethrower.ammotype "HDCO2GrenadeAmmo";
 		hdgrenadethrower.throwtype "HDCO2GrenadeThrown";
 		hdgrenadethrower.spoontype "HDCO2GrenadeSpoon";
@@ -18,12 +18,12 @@ class HDCO2Grenades:HDGrenadethrower{
 	}
 
 	override string gethelptext(){
-		if(weaponstatus[0]&FRAGF_SPOONOFF)return WEPHELP_FIRE.."  Wind up, release to throw\n(\cxSTOP READING AND DO THIS"..WEPHELP_RGCOL..")";
+		if(weaponstatus[0]&FRAGF_SPOONOFF)return WEPHELP_FIRE..Stringtable.Localize("$CO2NADE_HELPTEXT_1")..WEPHELP_RGCOL..")";
 		return
-		WEPHELP_FIRE.."  Pull pin/wind up (release to throw)\n"
-		..WEPHELP_ALTFIRE.."  Pull pin, again to drop spoon\n"
-		..WEPHELP_RELOAD.."  Abort/replace pin\n"
-		..WEPHELP_ZOOM.."  Start planting tripwire traps";
+		WEPHELP_FIRE..Stringtable.Localize("$CO2NADE_HELPTEXT_2")
+		..WEPHELP_ALTFIRE..Stringtable.Localize("$CO2NADE_HELPTEXT_3")
+		..WEPHELP_RELOAD..Stringtable.Localize("$CO2NADE_HELPTEXT_4")
+		..WEPHELP_ZOOM..Stringtable.Localize("$CO2NADE_HELPTEXT_5");
 	}
 	
 	override void DoEffect(){
@@ -138,7 +138,7 @@ class HDCO2Grenade:HDFragGrenade{
 		+ROLLSPRITE
 		+ROLLCENTER
 		scale 0.25;
-		obituary "%o was smoked by %k.";
+		obituary "$OB_CO2NADE";
 		hdfraggrenade.rollertype "HDCO2GrenadeRoller";
 	}
 	states
@@ -179,9 +179,9 @@ class HDCO2GrenadeAmmo:HDAmmo{
 		inventory.amount 1;
 		scale 0.25;
 		inventory.maxamount 50;
-		inventory.pickupmessage "Picked up a CO2-Grenade.";
+		inventory.pickupmessage "$PICKUP_CO2NADE";
 		inventory.pickupsound "weapons/pocket";
-		tag "CO2-Grenades";
+		tag "$CO2NADE_TAG";
 		hdpickup.refid HDLD_CO2NADE;
 		hdpickup.bulk ENC_CO2GRENADE;
 		+INVENTORY.KEEPDEPLETED
@@ -212,7 +212,7 @@ class HDCO2GrenadeP:HDUPK{
 		scale 0.25;height 3;radius 3;
 		hdupk.amount 1;
 		hdupk.pickuptype "HDCO2GrenadeAmmo";
-		hdupk.pickupmessage "Picked up a CO2-Grenade.";
+		hdupk.pickupmessage "$PICKUP_CO2NADE";
 		hdupk.pickupsound "weapons/rifleclick2";
 		stamina 1;
 	}
@@ -264,7 +264,7 @@ class HDCO2GrenadeRoller:HDFragGrenadeRoller{
 			bouncetype "doom";bouncesound "misc/fragknock";
 		radius 2;height 2;damagetype "none";
 		scale 0.25;
-		obituary "%o was gassed by %k.";
+		obituary "$OB_CO2NADE";
 		radiusdamagefactor 0.04;pushfactor 1.4;maxstepheight 2;
 		mass 42;
 	}
@@ -371,7 +371,7 @@ class HDCO2GrenadeThrown:HDFragGrenade{
 		+ROLLSPRITE
 		+ROLLCENTER
 		scale 0.25;
-		obituary "%o was fire.";
+		obituary "$OB_CO2NADE2";
 		hdfraggrenade.rollertype "HDCO2GrenadeRoller";
 		mass 42;
 	}
