@@ -2,6 +2,8 @@
 
 This Addon adds a CO2 Grenade to [Hideous Destructor](https://codeberg.org/mc776/HideousDestructor), useful for extinguishing large fires or dealing with hordes of Lost Souls.
 
+Requires [HDCoreLib](https://github.com/HDest-Community/hdest-core-lib).
+
 https://github.com/user-attachments/assets/148efdf0-9041-42bc-8ea4-b24b24c47fd1
 
 ## Credits
