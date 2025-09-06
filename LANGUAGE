@@ -23,4 +23,4 @@ PICKUP_CO2NADE = "Picked up a CO2-Grenade.";
 // Merchant
 MERCH_CAT_SLOGSTIN = "Virid Inc.";
 MERCH_TAG_CO2NADE = "CO2-Grenade";
-MERCH_FLAVOR_CO2NADE = "Throw at fire. Do not throw yourself at fire with it.";
+MERCH_FLAVOR_CO2NADE = "For when the BBQ got a bit out of hand.";
