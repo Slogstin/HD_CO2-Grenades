@@ -8,7 +8,7 @@ MENU_MERCHENABLED = "Merchant Sold: ";
 MENU_PERSISTENCY = "Persistent Spawns: ";
 
 // Grenade Strings
-CO2NADE_TAG = "CO2-Grenade"
+CO2NADE_TAG = "CO2-Grenade";
 CO2NADE_HELPTEXT_1 = "  Wind up, release to throw\n(\cxSTOP READING AND DO THIS";
 CO2NADE_HELPTEXT_2 = "  Pull pin/wind up (release to throw)\n";
 CO2NADE_HELPTEXT_3 = "  Pull pin, again to drop spoon\n";
